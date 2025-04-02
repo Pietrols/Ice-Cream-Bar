@@ -9,7 +9,7 @@ export function createFooter() {
 
   const githubLogo = document.createElement("img");
   githubLogo.id = "github-logo";
-  githubLogo.src = "github"; // Ensure this image is in your project folder
+  githubLogo.src = github; // Ensure this image is in your project folder
   githubLogo.alt = "GitHub Logo";
 
   const copyrightText = document.createElement("span");
